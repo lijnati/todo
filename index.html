@@ -8,6 +8,78 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <!-- Heading -->
+  <main class='app'>
+    <section class='greeting'>
+      <h2 class='title'> 
+        ሰላም 👋,Websidian's 
+      </h2>
+    </section>
 
+    <!-- create todo -->
+    <section class='create-todo'>
+       <h3>Create a Todo</h3>
+       <form action="">
+        <input type="text" placeholder="e.g attend websidia meeting" name="content" id="content">
+        <h4>Pick a catagory</h4>
+        <div class="options">
+          <!-- Catagory 1 -->
+          <label>
+            <input type="radio" name="catagory" id="catagory1" value="team" />
+            <span class="box team"></span>
+            <div>Team</div>
+          </label>
+         
+          <!-- Catagory 2 -->
+          <label>
+            <input type="radio" name="catagory" id="catagory2" value="personal" />
+            <span class="box personal"></span>
+            <div>Personal</div>
+            
+          </label>
+        </div>
+
+        <input type="submit" value="Add todo" />
+       </form>
+    </section>
+
+    <!-- Todo list goes here -->
+    <section class="todo-list">
+      <h3>TODO LIST</h3>
+      <div class="list" id="todo-list">
+        <!-- <div class="todo-item done">
+          <label>
+            <input type="checkbox" name="" id="">
+            <span class="box team"></span>
+          </label>
+
+          <div class="todo-content">
+            <input type="text" value="websidia meeting" readonly/>
+          </div>
+
+          <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div>
+
+        <div class="todo-item">
+          <label>
+            <input type="checkbox" name="" id="">
+            <span class="box personal"></span>
+          </label>
+
+          <div class="todo-content">
+            <input type="text" value="Hit Gym" readonly/>
+          </div>
+
+          <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </main>
 </body>
 </html>
